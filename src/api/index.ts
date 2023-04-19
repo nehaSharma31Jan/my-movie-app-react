@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Alert } from 'react-bootstrap';
 
-const baseURL = 'https://worried-blue-crown.cyclic.app/';
+const baseURL = 'https://worried-blue-crown.cyclic.app';
 
 // export const login = async (email: string, password: string) => {
 //   try {

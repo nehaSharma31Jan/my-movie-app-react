@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://localhost:4000';
+const baseURL = 'https://long-rose-llama-wig.cyclic.app';
 
 export const getMovieList = async () => {
   try {

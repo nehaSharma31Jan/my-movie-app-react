@@ -17,7 +17,6 @@
     "react": "^16.14.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^16.14.0",
-    "react-fa": "^5.0.0",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
     "reactstrap": "^9.1.5",
@@ -25,7 +24,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm install --legacy-peer-deps",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -50,8 +48,7 @@
     ]
   },
   "devDependencies": {
-    "@types/jsonwebtoken": "^9.0.1",
-    "@types/react-fa": "^4.1.8"
+    "@types/jsonwebtoken": "^9.0.1"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",

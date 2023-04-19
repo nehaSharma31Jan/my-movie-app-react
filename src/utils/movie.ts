@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'https://long-rose-llama-wig.cyclic.app';
+const baseURL = 'https://worried-blue-crown.cyclic.app';
 
 export const getMovieList = async () => {
   try {

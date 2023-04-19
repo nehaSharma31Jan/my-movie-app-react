@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Alert } from 'react-bootstrap';
 
-const baseURL = 'http://localhost:4000';
+const baseURL = 'https://long-rose-llama-wig.cyclic.app/';
 
 // export const login = async (email: string, password: string) => {
 //   try {

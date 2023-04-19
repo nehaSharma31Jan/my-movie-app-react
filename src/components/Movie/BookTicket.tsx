@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Container, Form, FormGroup, Label, Input, Button } from 'reactstrap';
+import { Container, Form, FormGroup, FormControl, Button } from 'react-bootstrap';
 import { AuthContext } from '../../context/AuthContext';
 import { bookTicket } from '../../api';
 import '../../css/allPagesStyle.css'
@@ -40,8 +40,8 @@ const BookTicket: React.FC = () => {
       <h2>Book a Ticket</h2>
       <Form onSubmit={handleSubmit}>
         <FormGroup>
-          <Label for="movieId">Movie ID</Label>
-          <Input
+          <Form.Label for="movieId">Movie ID</Form.Label>
+          <FormControl
             type="text"
             name="movieId"
             id="movieId"
@@ -50,8 +50,8 @@ const BookTicket: React.FC = () => {
           />
         </FormGroup>
         <FormGroup>
-          <Label for="showtime">Showtime</Label>
-          <Input
+          <Form.Label for="showtime">Showtime</Form.Label>
+          <FormControl
             type="text"
             name="showtime"
             id="showtime"
@@ -60,8 +60,8 @@ const BookTicket: React.FC = () => {
           />
         </FormGroup>
         <FormGroup>
-          <Label for="numberOfTickets">Number of Tickets</Label>
-          <Input
+          <Form.Label for="numberOfTickets">Number of Tickets</Form.Label>
+          <FormControl
             type="text"
             name="numberOfTickets"
             id="numberOfTickets"

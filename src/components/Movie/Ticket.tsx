@@ -7,7 +7,6 @@ import { bookTicket, getMovieDetails } from '../../utils/movie';
 import Navbar from '../Navbar/Navbar';
 import '../../css/allPagesStyle.css'
 import { useNavigate } from 'react-router-dom';
-import { Alert } from 'reactstrap';
 
 
 const BookTicket: React.FC = () => {

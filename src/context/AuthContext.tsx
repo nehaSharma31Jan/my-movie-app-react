@@ -33,7 +33,7 @@ const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     try {
       const json = JSON.stringify({ "email": username, "password": password  });
       const config = { 'content-type': 'application/json' };
-      const response = await axios.post('https://long-rose-llama-wig.cyclic.app/users/authenticate', json,{
+      const response = await axios.post('https://worried-blue-crown.cyclic.app/users/authenticate', json,{
         headers: {
           // Overwrite Axios's automatically set Content-Type
           'Content-Type': 'application/json'
